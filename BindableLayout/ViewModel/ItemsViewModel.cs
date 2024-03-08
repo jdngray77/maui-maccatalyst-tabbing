@@ -11,16 +11,16 @@ namespace BindableLayout.ViewModel
         {
             ItemViewModels.Add(new ItemViewModel(false));
             ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(true));
             ItemViewModels.Add(new ItemViewModel(false));
             ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(true));
             ItemViewModels.Add(new ItemViewModel(false));
             ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(true));
+            ItemViewModels.Add(new ItemViewModel(false));
+            ItemViewModels.Add(new ItemViewModel(false));
+            ItemViewModels.Add(new ItemViewModel(false));
+            ItemViewModels.Add(new ItemViewModel(false));
+            ItemViewModels.Add(new ItemViewModel(false));
+            ItemViewModels.Add(new ItemViewModel(false));
         }
     }
 }
