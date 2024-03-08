@@ -26,7 +26,7 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
         
-            <Grid ColumnDefinitions="*,*">
+            <Grid ColumnDefinitions="*,*" Margin="0,300,0,0">
                 <Entry Grid.Column="0"/>
                 <Entry Grid.Column="1"/>
             </Grid>

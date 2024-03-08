@@ -9,26 +9,26 @@ namespace BindableLayout.ViewModel
 
         public ItemsViewModel()
         {
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(false));
-            ItemViewModels.Add(new ItemViewModel(true));
-            ItemViewModels.Add(new ItemViewModel(true));
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
+            ItemViewModels.Add(new ItemViewModel());
         }
     }
 }

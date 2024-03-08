@@ -4,25 +4,27 @@
              x:Class="BindableLayout.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="100"
-            BindableLayout.ItemsSource="{Binding ItemViewModels}">
-            <BindableLayout.ItemTemplate>
-                <DataTemplate>
-                    <Entry IsReadOnly="{Binding IsReadOnly}" 
-                           MinimumHeightRequest="50" 
-                           MinimumWidthRequest="300">
-                        <Entry.Triggers>
-                            <DataTrigger TargetType="Entry" Binding="{x:Binding IsReadOnly}" Value="True">
-                                <Setter Property="Placeholder" Value="Read only"/>
-                                <Setter Property="BackgroundColor" Value="DarkGray"/>
-                            </DataTrigger>
-                        </Entry.Triggers> 
-                    </Entry>
-                </DataTemplate>
-            </BindableLayout.ItemTemplate>
+        <VerticalStackLayout>
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="100"
+                BindableLayout.ItemsSource="{Binding ItemViewModels}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <Entry MinimumHeightRequest="50" 
+                               MinimumWidthRequest="300">
+                        </Entry>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </VerticalStackLayout>
+            
+            <Grid ColumnDefinitions="*,*" Margin="0,300,0,0">
+                <Entry Grid.Column="0"/>
+                <Entry Grid.Column="1"/>
+            </Grid>
         </VerticalStackLayout>
     </ScrollView>
+    
+    
 
 </ContentPage>
